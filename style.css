@@ -8,6 +8,27 @@ body {
     font-family: cursive;
     display: flex;
     justify-content: center;
+    background-color: #D4E7C5;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+    color: #fff;
+    line-height: 1.7;
+}
+
+.done {
+    text-decoration: line-through;
+    color: blue;
+}
+
+ul li {
+    background-color: #6C946F;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 h2 {
@@ -18,7 +39,7 @@ h2 {
 .container {
     margin-top: 20px;
     border-radius: 10px;
-    background-color: #BB8493;
+    background-color: #99BC85;
     width: 500px;
     height: 600px;
     text-align: center;
@@ -30,11 +51,18 @@ input {
     border: none;
     width: 80%;
     border-radius: 10px;
+    background-color: #E1F0DA;
+    border: none;
 }
 
-span {
-    background-color: #fff;
+input:focus {
+    outline: none;
+}
+
+button {
+    background-color: #E1F0DA;
     padding: 15px;
+    border: none;
     border-radius: 50%;
+    cursor: pointer;
 }
-
